@@ -1,0 +1,27 @@
+nav>ul>li{
+    float: left;
+}
+nav ul li{
+    list-style: none;
+  
+    padding: 10px 20px;
+    background-color: aqua;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+nav ul li:hover{
+    background-color: blue;
+    
+}
+nav ul li:hover a{
+    color: white;
+}
+.drop-down{
+    position: absolute;
+    display: none;
+}
+nav>ul>li:hover .drop-down{
+    display: block;
+}
